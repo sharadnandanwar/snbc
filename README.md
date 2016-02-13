@@ -1,4 +1,4 @@
-SNBC: Structural Neighborhood Based Classification of Nodes in a Network<br />
+<h6>SNBC: Structural Neighborhood Based Classification of Nodes in a Network</h6> <br/>
 <br />
 [hammingScore microF1 macroF1] = SNBC_Run ( dataFile )<br />
 Run and Evaluate performance of SNBC.<br />
