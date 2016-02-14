@@ -1,7 +1,7 @@
 <h3>SNBC: Structural Neighborhood Based Classification of Nodes in a Network</h3>
 
 <h5>Usage:</h5>
-<tt>[hammingScore microF1 macroF1] = SNBC_Run ( path_to_dataFile )</tt>
+<tt>[hammingScore microF1 macroF1] = SNBC_Run ( path_to_dataFile )</tt><br/>
 Run and Evaluate performance of SNBC.
 
 <h6>INPUT:</h6>
