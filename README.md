@@ -1,14 +1,15 @@
-<h6>SNBC: Structural Neighborhood Based Classification of Nodes in a Network</h6> <br/>
-<br />
-[hammingScore microF1 macroF1] = SNBC_Run ( dataFile )<br />
+<h3>SNBC: Structural Neighborhood Based Classification of Nodes in a Network</h3> <br/>
+<h5>Usage:</h5>
+<tt>[hammingScore microF1 macroF1] = SNBC_Run ( path_to_dataFile )</tt><br />
 Run and Evaluate performance of SNBC.<br />
-INPUT:<br />
-   dataFile    = url of .mat file<br />
-OUTPUT:<br />
-   hammingScore = Hamming Score<br />
-   microF1      = Micro-F1 Score<br />
-   macroF1      = Macro-F1 Score<br />
+<h6>INPUT:</h6><br />
+<tt> &nbsp; &nbsp; &nbsp;dataFile &nbsp; &nbsp; = &nbsp;url of .mat file</tt> <br />
+<h6>OUTPUT:</h6><br />
+<tt> &nbsp; &nbsp; &nbsp;hammingScore = Hamming Score</tt><br />
+<tt> &nbsp; &nbsp; &nbsp;microF1 &nbsp; &nbsp; &nbsp;= Micro-F1 Score</tt><br />
+<tt> &nbsp; &nbsp; &nbsp;macroF1 &nbsp; &nbsp; &nbsp;= Macro-F1 Score</tt><br />
 <br />
- e.g. [hs mic mac] = SNBC_Run('Datasets/pubmed.mat')<br />
+<h6>Example:</h6><br/>
+<br /><tt> [hs mic mac] = SNBC_Run('Datasets/pubmed.mat')</tt><br />
 <br />
-Author: Sharad Nandanwar<br />
+<h6><bold><tt>Author: Sharad Nandanwar</tt></bold></h6><br />
