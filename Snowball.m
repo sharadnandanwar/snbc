@@ -26,7 +26,7 @@ function [Test, Train] = Snowball(graph, TrFraction)
     Test = zeros(n_Test,1);
     Train = zeros(size(Nodes,1)-n_Test,1);
 
-    n_seed=floor(n_Test*0.02);
+    n_seed=ceil(n_Test*0.02);
     % n_seed=1;
 
     Seed = unique(sparseGraph(randi(size(sparseGraph,1),[n_seed,1]),1));
