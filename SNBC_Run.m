@@ -24,7 +24,7 @@ function [hammingScore microF1 macroF1] = SNBC_Run ( dataFile )
     options={};
     options.trainIdx = Train;
     options.testIdx = Test;
-    options.k = min(size(Train,1), ceil(0.1*size(graph,1)));
+    options.k = min(1000, length(Train));
     options.maxIter = 1000;
     options.lamda = 2^-6;
 
