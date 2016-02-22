@@ -114,7 +114,7 @@ b = mean(Y(trainIdx) - propogatedPred);
 Tr = sum(sign(propogatedPred+b)==Y(trainIdx,:));
 F = NTr - Tr;
 TrainAccuracy = full(100*Tr/(Tr+F));
-disp(strcat('Pegasos Accuracy on Training set = ',num2str(TrainAccuracy),' %%\n'));
+disp(strcat('Accuracy on Training set = ',num2str(TrainAccuracy),' %\n'));
 
 model = {};
 model.w = w;
